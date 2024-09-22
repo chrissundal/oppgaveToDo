@@ -1,11 +1,8 @@
-let getCheck = true;
-let convCheck = '';
 let getChore = '';
 let getName = '';
 let getDeadlineDate = '';
 let isOpen = false;
 let editTaskText = '';
-
 
 let chores = [
     {

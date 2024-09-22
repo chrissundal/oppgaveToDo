@@ -16,7 +16,6 @@ function updateView() {
         <div class="showEditChore">${editTaskText}</div><br>
         `;
     editTaskText = '';
-
 }
 
 function createAddTask() {
@@ -66,7 +65,6 @@ function createTable() {
     return html;
 }
 function editTask(index) {
-    getCheck = '';
     getChore = '';
     getName = '';
     editTaskText = `
@@ -97,4 +95,3 @@ function editTask(index) {
         `;
     updateView();
 }
-

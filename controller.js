@@ -9,7 +9,6 @@ function addChore() {
     isOpen = false;
     updateView();
 }
-
 function changeIsDone(checkbox, index){
     const isChecked = checkbox.checked;
     chores[index].isChecked = isChecked;
@@ -33,12 +32,10 @@ function cancelChore() {
     isOpen = false;
     updateView();
 }
-
 function deleteChore(index) {
     chores.splice(index, 1)
     updateView();
 }
-
 function openAdd() {
     isOpen = true;
     updateView();

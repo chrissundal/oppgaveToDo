@@ -14,17 +14,14 @@ table {
     background-color: #fff;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
-
 th, td {
     padding: 12px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
-
 th {
     background-color: #f2f2f2;
 }
-
 tr:hover {
     background-color: #f1f1f1;
 }
@@ -44,12 +41,10 @@ button {
     cursor: pointer;
     border-radius: 4px;
 }
-
 button:hover {
     background-color: #45a049;
     transform: scale(1.06);
 }
-
 input[type="date"], select {
     width: 100%;
     padding: 12px;
@@ -61,7 +56,6 @@ input[type="date"], select {
     text-align: center;
     font-family: Arial, sans-serif;
 }
-
 input[type="text"]{
     width: 100%;
     padding: 12px;
@@ -74,4 +68,3 @@ input[type="text"]{
 div {
     margin: 20px 0;
 }
-
